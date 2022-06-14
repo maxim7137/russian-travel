@@ -1,0 +1,9 @@
+.header__lang-list {
+  display: inline;
+  padding-right: 18px;
+  font-size: 1.5em;
+}
+
+.header__lang-list:last-child {
+  padding-right: 0;
+}
