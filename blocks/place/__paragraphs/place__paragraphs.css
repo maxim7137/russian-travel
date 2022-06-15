@@ -1,0 +1,5 @@
+.place__paragraphs {
+  width: calc(100% - 35px - 484px);
+  font-size: 1.125em;
+  line-height: 1.63;
+}
