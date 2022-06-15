@@ -12,4 +12,4 @@
 
 **Ссылка**
 
-* [Ссылка GitHub Pages](https://)
+* [Ссылка GitHub Pages](https://maxim7137.github.io/russian-travel/index.html)
