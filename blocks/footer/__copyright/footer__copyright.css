@@ -8,6 +8,10 @@
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .footer__copyright {
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
 }

@@ -12,6 +12,11 @@
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .footer__links {
+    margin-top: 64px;
+    flex-direction: column;
+    row-gap: 32px;
+  }
 }

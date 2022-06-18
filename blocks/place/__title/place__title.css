@@ -17,6 +17,12 @@
     font-size: 2.625em;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .place__title {
+    font-size: 2em;
+    display: block;
+    width: 95.05%;
+    margin: 0 auto;
+  }
 }

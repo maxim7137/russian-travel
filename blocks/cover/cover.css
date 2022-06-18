@@ -44,6 +44,10 @@
     min-height: 480px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+  }
 }

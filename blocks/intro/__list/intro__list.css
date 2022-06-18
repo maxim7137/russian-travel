@@ -13,6 +13,9 @@
     margin-bottom: 88px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .intro__list {
+    margin-bottom: 64px;
+  }
 }

@@ -5,3 +5,10 @@
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  /* мобильные устройства */
+  .place__paragraph {
+    margin-bottom: 25px;
+  }
+}

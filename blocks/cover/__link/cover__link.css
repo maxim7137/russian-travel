@@ -8,3 +8,11 @@
   color: #fff;
   align-self: stretch;
 }
+
+@media screen and (max-width: 320px) {
+  /* мобильные устройства */
+  .cover__link {
+    flex-basis: 288px;
+    row-gap: 16px;
+  }
+}

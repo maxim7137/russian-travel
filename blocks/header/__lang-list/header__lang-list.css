@@ -7,3 +7,10 @@
 .header__lang-list:last-child {
   padding-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+  /* мобильные устройства */
+  .header__lang-list {
+    font-size: 1.125em;
+  }
+}

@@ -12,6 +12,10 @@
     margin: 8px auto 88px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .lead__caption {
+    max-width: 288px;
+    margin: 8px auto 64px;
+  }
 }

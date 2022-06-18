@@ -12,6 +12,9 @@
     margin-bottom: 88px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .photo-grid__item:last-child {
+    margin-bottom: 64px;
+  }
 }

@@ -18,6 +18,10 @@
     line-height: 1.625;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .place__paragraphs {
+    width: 95.05%;
+    margin: 0 auto;
+  }
 }

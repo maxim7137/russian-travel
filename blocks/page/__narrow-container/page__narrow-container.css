@@ -12,7 +12,13 @@
 }
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
+  .page__narrow-container {
+    max-width: 720px;
+  }
 }
 @media screen and (max-width: 425px) {
   /* мобильные устройства */
+  .page__narrow-container {
+    max-width: 288px;
+  }
 }

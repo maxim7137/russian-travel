@@ -18,6 +18,10 @@
     gap: 1em;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75em;
+  }
 }

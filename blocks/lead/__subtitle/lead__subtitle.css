@@ -4,7 +4,6 @@
   margin: 32px auto 64px;
 }
 
-
 @media screen and (max-width: 1024px) {
   /* от вертикального до горизонтального положения планшета */
   .lead__subtitle {
@@ -14,6 +13,11 @@
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   /* мобильные устройства */
+  .lead__subtitle {
+    max-width: 288px;
+    margin: 16px auto 40px;
+    font-size: 1em;
+  }
 }
