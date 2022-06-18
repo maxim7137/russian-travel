@@ -5,3 +5,13 @@
   margin: 92px 0 0;
   padding-inline-start: 0;
 }
+
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+  .footer__links {
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

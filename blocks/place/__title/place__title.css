@@ -7,11 +7,15 @@
 @media screen and (max-width: 1024px) {
   /* от вертикального до горизонтального положения планшета */
   .place__title {
-    width: 47.415%;
+    flex-basis: 47.415%;
   }
 }
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
+  .place__title {
+    flex-basis: 47.22%;
+    font-size: 2.625em;
+  }
 }
 @media screen and (max-width: 425px) {
   /* мобильные устройства */

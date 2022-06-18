@@ -12,6 +12,11 @@
 }
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
+  .place__paragraphs {
+    width: calc(100% - 28px - 47.22%);
+    font-size: 1em;
+    line-height: 1.625;
+  }
 }
 @media screen and (max-width: 425px) {
   /* мобильные устройства */

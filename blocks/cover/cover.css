@@ -39,6 +39,10 @@
 }
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
 }
 @media screen and (max-width: 425px) {
   /* мобильные устройства */

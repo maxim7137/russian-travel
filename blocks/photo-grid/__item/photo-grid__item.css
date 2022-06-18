@@ -5,3 +5,13 @@
 .photo-grid__item:last-child {
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+  .photo-grid__item:last-child {
+    margin-bottom: 88px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

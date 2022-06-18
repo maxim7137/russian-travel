@@ -11,6 +11,9 @@
 }
 @media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
+  .place__image {
+    width: 47.22%;
+  }
 }
 @media screen and (max-width: 425px) {
   /* мобильные устройства */

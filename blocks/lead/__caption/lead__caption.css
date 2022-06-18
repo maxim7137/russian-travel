@@ -4,3 +4,14 @@
   margin: 8px 0 92px;
   font-size: 0.625em;
 }
+
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+  .lead__caption {
+    max-width: 720px;
+    margin: 8px auto 88px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}
