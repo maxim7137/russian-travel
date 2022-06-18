@@ -6,3 +6,16 @@
   font-size: 1rem;
   outline: 1px solid blue;
 }
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .page {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

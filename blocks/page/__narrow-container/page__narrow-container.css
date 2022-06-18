@@ -3,3 +3,16 @@
   margin: 0 auto;
   outline: 1px solid greenyellow;
 }
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .page__narrow-container {
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

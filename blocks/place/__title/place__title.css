@@ -1,5 +1,18 @@
 .place__title {
-  flex-basis: 460px;
+  flex-basis: 46.749%;
   font-size: 4.5em;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .place__title {
+    width: 47.415%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
 }

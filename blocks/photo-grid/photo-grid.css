@@ -3,3 +3,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
 }
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.875em;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

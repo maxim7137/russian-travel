@@ -3,3 +3,17 @@
   font-size: 1.875em;
   margin: 32px auto 64px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}

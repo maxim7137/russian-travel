@@ -3,3 +3,17 @@
   flex-wrap: wrap;
   gap: 48px 40px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  /* от вертикального до горизонтального положения планшета */
+  .place {
+    column-gap: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* от большого смартфона до вертикального положения планшета */
+}
+@media screen and (max-width: 425px) {
+  /* мобильные устройства */
+}
