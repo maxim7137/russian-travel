@@ -14,7 +14,7 @@
   /* от большого смартфона до вертикального положения планшета */
   .page__narrow-container {
     /* max-width: 720px; */
-    width: 95.874%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {

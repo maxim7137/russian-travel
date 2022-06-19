@@ -11,13 +11,17 @@
     gap: 0.875em;
   }
 }
+
 @media screen and (max-width: 1023px) {
   /* от большого смартфона до вертикального положения планшета */
   .photo-grid {
+    margin: 0 auto;
+    width: 95.874%;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }
 }
+
 @media screen and (max-width: 767px) {
   /* мобильные устройства */
   .photo-grid {
