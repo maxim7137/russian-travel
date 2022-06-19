@@ -8,7 +8,7 @@
   padding-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .header__lang-list {
     font-size: 1.125em;

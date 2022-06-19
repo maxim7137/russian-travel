@@ -3,7 +3,7 @@
   margin: 0 0 40px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .intro__title {
     font-size: 2em;

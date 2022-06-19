@@ -4,7 +4,7 @@
   font-size: 6em;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .lead__title {
     max-width: 288px;

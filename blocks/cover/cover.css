@@ -30,24 +30,22 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   /* от вертикального до горизонтального положения планшета */
   .cover {
-    max-width: 1024px;
+    max-width: 100%;
     min-height: 640px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* от большого смартфона до вертикального положения планшета */
   .cover {
-    max-width: 768px;
     min-height: 480px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .cover {
-    max-width: 320px;
-    min-height: 200px;
+    min-height: 0;
   }
 }

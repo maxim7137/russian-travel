@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  /* мобильные устройства */
+  .item-320by200 {
+    padding-bottom: 62.5%; /* (200:320)*100% */
+  }
+}

@@ -1,24 +1,26 @@
 .page__wide-container {
   max-width: 1184px;
   margin: 0 auto;
-  outline: 1px solid yellow;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   /* от вертикального до горизонтального положения планшета */
   .page__wide-container {
-    max-width: 928px;
+    /* max-width: 928px; */
+    width: 92.155%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* от большого смартфона до вертикального положения планшета */
   .page__wide-container {
-    max-width: 720px;
+    /* max-width: 720px; */
+    width: 95.874%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .page__wide-container {
-    max-width: 288px;
+    /* max-width: 288px; */
+    width: 100%;
   }
 }

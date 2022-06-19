@@ -6,16 +6,17 @@
   padding-inline-start: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* от большого смартфона до вертикального положения планшета */
   .footer__links {
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   /* мобильные устройства */
   .footer__links {
-    margin-top: 64px;
+    width: 95.05%;
+    margin: 64px auto 0;
     flex-direction: column;
     row-gap: 32px;
   }
