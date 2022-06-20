@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   /* мобильные устройства */
   .cover__subtitle {
     font-size: 0.875em;

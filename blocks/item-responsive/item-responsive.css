@@ -1,5 +1,4 @@
-@media screen and (max-width: 767px) {
-  /* мобильные устройства */
+@media screen and (max-width: 425px) {
   .item-responsive {
     position: relative; /* относительное позиционирование */
   }

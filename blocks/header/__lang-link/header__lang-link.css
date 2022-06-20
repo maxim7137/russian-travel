@@ -2,6 +2,7 @@
   display: inline;
   text-decoration: none;
   color: #fff;
+  line-height: 1.17;
   transition: opacity 0.2s;
 }
 

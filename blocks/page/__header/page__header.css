@@ -1,23 +1,20 @@
 .page__header {
+  width: 100%;
   margin: 28px auto 56px;
 }
 
-@media screen and (max-width: 1279px) {
-  /* от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1024px) {
   .page__header {
     margin-bottom: 48px;
   }
 }
-@media screen and (max-width: 1023px) {
-  /* от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 768px) {
   .page__header {
     margin: 28px auto 48px;
-    width: 95.874%;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .page__header {
     margin: 16px auto 48px;
-    width: 95.05%;
   }
 }

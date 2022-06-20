@@ -1,20 +1,25 @@
 .lead__subtitle {
+  width: 100%;
   max-width: 640px;
   font-size: 1.875em;
+  line-height: 1.2;
   margin: 32px auto 64px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* от вертикального до горизонтального положения планшета */
   .lead__subtitle {
     margin-bottom: 56px;
   }
 }
-@media screen and (max-width: 1023px) {
-  /* от большого смартфона до вертикального положения планшета */
-}
+
 @media screen and (max-width: 767px) {
-  /* мобильные устройства */
+  .lead__subtitle {
+    max-width: calc(100% - 128px);
+    font-size: 3.9vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .lead__subtitle {
     max-width: 288px;
     margin: 16px auto 40px;

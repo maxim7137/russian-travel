@@ -8,8 +8,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 767px) {
-  /* мобильные устройства */
+@media screen and (max-width: 425px) {
   .header__logo {
     width: 142px;
     height: 42px;

@@ -1,27 +1,25 @@
 .place__paragraphs {
-  width: calc(100% - 40px - 46.749%);
+  width: calc(100% - 40px - 460px);
   font-size: 1.125em;
   line-height: 1.63;
 }
 
-@media screen and (max-width: 1279px) {
-  /* от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1024px) {
   .place__paragraphs {
-    width: calc(100% - 32px - 47.415%);
+    width: calc(100% - 32px - 440px);
   }
 }
-@media screen and (max-width: 1023px) {
-  /* от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 768px) {
   .place__paragraphs {
-    width: calc(100% - 28px - 47.22%);
+    width: calc(100% - 28px - 340px);
     font-size: 1em;
     line-height: 1.625;
   }
 }
-@media screen and (max-width: 767px) {
-  /* мобильные устройства */
+@media screen and (max-width: 425px) {
   .place__paragraphs {
-    width: 95.05%;
+    width: calc(100% - 32px);
+    min-width: 288px;
     margin: 0 auto;
   }
 }

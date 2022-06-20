@@ -1,13 +1,1 @@
-@media screen and (max-width: 1023px) {
-  /* от большого смартфона до вертикального положения планшета */
-  .intro {
-    max-width: 95.874%;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 767px) {
-  /* мобильные устройства */
-  .intro {
-    max-width: 95.05%;
-  }
-}
+.intro {}

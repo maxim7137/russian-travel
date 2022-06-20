@@ -5,17 +5,18 @@
   font-size: 0.625em;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   /* от большого смартфона до вертикального положения планшета */
   .lead__caption {
+    width: 100%;
     max-width: 720px;
     margin: 8px auto 88px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   /* мобильные устройства */
   .lead__caption {
+    max-width: calc(100% - 32px);
     margin: 8px auto 64px;
-    width: 95.05%;
   }
 }
