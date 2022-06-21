@@ -3,15 +3,14 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
-    margin: 0 auto;
+    margin: 0 auto 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
-    margin: 0 auto 24px;
   }
 }
