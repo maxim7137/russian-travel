@@ -6,7 +6,7 @@
   line-height: 1.4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   /* от большого смартфона до вертикального положения планшета */
   .lead__caption {
     margin: 8px auto 88px;

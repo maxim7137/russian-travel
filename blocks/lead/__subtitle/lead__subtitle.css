@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    max-width: calc(100% - 128px);
+    max-width: calc(100% - 64px * 2);
     font-size: 3.9vw;
   }
 }
