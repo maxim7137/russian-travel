@@ -1,17 +1,17 @@
 .place__title {
-  /* flex-basis: 460px; */
+  flex-basis: 460px;
   font-size: 4.5em;
   margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    /* flex-basis: 440px; */
+    flex-basis: 440px;
   }
 }
 @media screen and (max-width: 768px) {
   .place__title {
-    /* flex-basis: 340px; */
+    flex-basis: 340px;
     font-size: 2.625em;
   }
 }

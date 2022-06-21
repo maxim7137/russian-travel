@@ -9,27 +9,28 @@
 @media screen and (max-width: 1279px) {
   /* от 1024 и до 1279 — для небольших ноутбуков */
   .page__wide-container {
-    max-width: 928px;
+    width: calc(100% - 39.5px * 2);
   }
 }
 
 @media screen and (max-width: 1023px) {
   /* от 768 и до 1023 пикселей — от вертикального до горизонтального положения планшета */
   .page__wide-container {
-    max-width: 720px;
+    width: calc(100% - 15.5px * 2);
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 767px) {
   /* от 426 и до 767 пикселей — от большого смартфона до вертикального положения планшета */
   .page__wide-container {
-    max-width: calc(100% - 32px);
+    width: calc(100% - 7.5px * 2);
   }
 }
 
 @media screen and (max-width: 425px) {
   /* до 425 пикселей — мобильные устройства */
   .page__wide-container {
-    max-width: 288px;
+    min-width: 288px;
   }
 }
