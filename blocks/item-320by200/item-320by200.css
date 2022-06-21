@@ -1,5 +1,0 @@
-@media screen and (max-width: 425px) {
-  .item-320by200 {
-    padding-bottom: 62.5%; /* (200:320)*100% */
-  }
-}
