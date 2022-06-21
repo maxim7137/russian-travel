@@ -1,6 +1,7 @@
 .place__title {
   flex-basis: 460px;
   margin: 0;
+  font-weight: 900;
   font-size: 4.5em;
   line-height: 1.06;
 }

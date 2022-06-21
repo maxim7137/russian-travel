@@ -3,6 +3,7 @@
   color: #fff;
   padding: 24px 0;
   transition: opacity 0.2s;
+  line-height: 1.12;
 }
 
 .footer__link:hover {

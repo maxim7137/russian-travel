@@ -13,7 +13,6 @@
   .place__paragraphs {
     flex-basis: calc(100% - 28px - 340px);
     font-size: 1em;
-    line-height: 1.625;
   }
 }
 
@@ -21,7 +20,6 @@
   .place__paragraphs {
     flex-basis: calc(100% - 48vw);
     font-size: 1em;
-    line-height: 1.625;
   }
 }
 

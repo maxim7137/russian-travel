@@ -18,5 +18,6 @@
   .lead__title {
     max-width: 288px;
     font-size: 2.5em;
+    line-height: 1.1;
   }
 }
