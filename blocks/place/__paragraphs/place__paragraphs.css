@@ -19,7 +19,6 @@
 @media screen and (max-width: 767px) {
   .place__paragraphs {
     flex-basis: calc(100% - 48vw);
-    font-size: 1em;
   }
 }
 

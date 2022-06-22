@@ -8,7 +8,7 @@
 @media screen and (max-width: 1279px) {
   /* от 1024 и до 1279 — для небольших ноутбуков */
   .page__wide-container {
-    width: calc(100% - 24px * 2);
+    width: calc(100% - 48px * 2);
   }
 }
 
@@ -16,6 +16,7 @@
   /* от 768 и до 1023 пикселей — от вертикального до горизонтального положения планшета */
   .page__wide-container {
     max-width: 928px;
+    width: calc(100% - 24px * 2);
   }
 }
 
